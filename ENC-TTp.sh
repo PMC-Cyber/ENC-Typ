@@ -229,6 +229,8 @@ clear
 echo -e "${RED}==> ${ORANGE}bash ENC-Typ.sh"
 echo " "
 echo "${ORANGE} KETIK KELUAR LAGI ${RED}!"
+sleep 2s
+clear
 exit
 
 ;;
