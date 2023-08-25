@@ -323,7 +323,8 @@ echo "${ORANGE} Pergi Ke NEW SESSIONS lalu Ketik (cd)"
 echo "${ORANGE} Setelah Ketik (cd) ketik (cd ENC-Typ)"
 echo "${ORANGE} langsung Ketik (Nano contoh.sh) tempel codingan di sini, kalo sudah simpan"
 echo "${ORANGE} Ketik commad python2 bash.py"
-
+sleep 10
+bash ENC-TTp.sh
 ;;
 
 *) echo "${WHITE}PILIH YG BENER CUK !!"
