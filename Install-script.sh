@@ -44,8 +44,6 @@ pkg upgrade && pkg update
 pkg install git
 pkg install python2
 pkg install python
-gem install lolcat
-pip2 install requests
 pip2 install termcolor
 pkg install nodejs
 pkg install neofetch -y
