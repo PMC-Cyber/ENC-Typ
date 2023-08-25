@@ -179,8 +179,8 @@ while [ $lagi -lt 20 ];
 do
 
 echo " "
-echo "${RED}[${ORANGE}!${RED}] ${WHITE} Sebelum Masuk Script Buat Bahan Dulu Ketik ${ORANGE}TUTOR ${WHITE}  Buat Masuk Ke Cara !"
-echo "${RED}[${ORANGE}!${RED}] ${WHITE} Setelah Buat Bahan Lanjut Update Script Dulu Ketik ${ORANGE}UP ${WHITE}Buat Update !"
+echo "${RED}[${ORANGE}!${RED}] ${WHITE} Sebelum Masuk Script Update Tools dulu Ketik ${ORANGE}UP ${WHITE}Buat Update !"
+echo "${RED}[${ORANGE}!${RED}] ${WHITE} Setelah Update Lanjut buat bahan Dulu Ketik ${ORANGE}TUTOR ${WHITE}Buat masuk ke Cara Buatnya !"
 echo " "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}KELUAR${GREEN} ] ${WHITE}Kalo mau Logout "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}UP${GREEN} ] ${WHITE}Buat Update Tools Yang Versi Terbaru "
@@ -315,16 +315,17 @@ echo " "
 sleep 2s
 echo "~{${ORANGE} TUAN TELAH BERADA DI FROM BUAT BAHAN ${GREEN}}~"
 echo " "
-sleep 1
-echo "${ORANGE} CARA BUAT BAHAN ADA WAKTU BUAT BACA KALO GAK DI SS ${WHITE}:"
-echo "${GREEN} AKAN OTOMATIS KE HALAMAN UP DALAM WAKTU 10 DETIK "
+sleep 1s
+echo "${ORANGE} CARA BUAT BAHAN ADA WAKTU BUAT BACA KALO GAK DI SS AJA ${WHITE}:"
+echo "${GREEN} AKAN OTOMATIS KE HALAMAN UP DALAM WAKTU ${WHITE}10 DETIK "
 echo " "
-echo "${ORANGE} Pergi Ke NEW SESSIONS lalu Ketik (cd)"
-echo "${ORANGE} Setelah Ketik (cd) ketik (cd ENC-Typ)"
-echo "${ORANGE} langsung Ketik (Nano contoh.sh) tempel codingan di sini, kalo sudah simpan"
-echo "${ORANGE} Ketik commad python2 bash.py"
-sleep 10
+echo "${ORANGE} Pergi Ke ${WHITE}NEW SESSIONS ${ORANGE}lalu Ketik ${GREEN}(${WHITE}cd${GREEN})"
+echo "${ORANGE} Setelah Ketik ${GREEN}(${WHITE}cd${GREEN})${ORANGE}ketik ${GREEN}(${WHITE}cd ENC-Typ${GREEN})"
+echo "${ORANGE} langsung Ketik ${GREEN}(${WHITE}Nano contoh.sh${GREEN}) ${ORANGE}tempel codingan di sini, kalo sudah simpan"
+echo "${ORANGE} Ketik commad ${WHITE}python2 bash.py"
+sleep 9s
 bash ENC-TTp.sh
+
 ;;
 
 *) echo "${WHITE}PILIH YG BENER CUK !!"
