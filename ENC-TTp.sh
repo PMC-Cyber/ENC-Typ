@@ -179,7 +179,8 @@ while [ $lagi -lt 20 ];
 do
 
 echo " "
-echo "${RED}[${ORANGE}!${RED}] ${WHITE} Sebelum Masuk Script Update Dulu Ketik ${ORANGE}UP ${WHITE}Buat Update !"
+echo "${RED}[${ORANGE}!${RED}] ${WHITE} Sebelum Masuk Script Buat Bahan Dulu Ketik ${ORANGE}BHN ${WHITE}  Buat Bahan !"
+echo "${RED}[${ORANGE}!${RED}] ${WHITE} Setelah Buat Bahan Lanjut Update Script Dulu Ketik ${ORANGE}UP ${WHITE}Buat Update !"
 echo " "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}KELUAR${GREEN} ] ${WHITE}Kalo mau Logout "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}UP${GREEN} ] ${WHITE}Buat Update Tools Yang Versi Terbaru "
@@ -294,6 +295,34 @@ sleep 2
  sleep 3
 clear
 python2 bash.py
+
+;;
+
+BHN) echo " "
+echo "${RED} ┏┓┈ ┳┈┳ ┏━┓ ┏┳┓ ┈ ┏┓┈ ┏━┓ ┳┈┳ ┏━┓ ┏┓┏ ┈  "
+echo "${RED} ┣┻┓ ┃┈┃ ┣━┫ ┈┃┈ ┈ ┣┻┓ ┣━┫ ┣━┫ ┣━┫ ┃┃┃ ┈  "
+echo "${RED} ┗━┛ ┗━┛ ┻┈┻ ┈┻┈ ┈ ┗━┛ ┻┈┻ ┻┈┻ ┻┈┻ ┛┗┛ ┈  "
+
+
+sleep 1s
+echo "${WHITE} Script By : UCH 2009 "
+sleep 1s
+echo  " "
+echo "${BLUE}[${RED}!${BLUE}] ${GREEN}Tuan Sedang Proses Ke Buat Tunggu TOD"
+sleep 1s
+echo "${BLUE}[${RED}✓${BLUE}] ${GREEN}Loading  In Software From..."
+echo " "
+sleep 2s
+echo "~{${ORANGE} TUAN TELAH BERADA DI FROM BUAT BAHAN ${GREEN}}~"
+echo " "
+sleep 1
+echo "${ORANGE} CARA BUAT BAHAN ${WHITE}:"
+echo "${ORANGE} Ketik Nano contoh,sh tempel codingan di sini kalo sudah simpan"
+echo "${ORANGE} Ketik commad bash ENC-TTp,bash "
+echo "${RED} Ganti tanda (,) ke (.)saat menjalankan commad "
+cd $HOME
+cd ENC-Typ
+
 
 ;;
 
