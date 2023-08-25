@@ -130,9 +130,16 @@ echo " "
 
 sleep 2
 
+echo "${yellow} TUNGGU 5 DETIK AKAN OTOMATIS DI ARAHKAN KE GRUP "
+echo " "
+sleep 5
+am start -a android.intent.action.VIEW https://chat.whatsapp.com/LqvqjLZdBgt34lxWRrvi5e
+
 # masuk halaman login
 
 python2 login.py
+
+sleep 1
 
 clear
 
@@ -142,10 +149,7 @@ echo "${WHITE}║ ║║║ ╚═╗ ┈║┈ ╠═╣ ║┈┈ ║┈┈ �
 echo "${WHITE}╩ ╝╚╝ ╚═╝ ┈╩┈ ╩┈╩ ╩═╝ ╩═╝ ╩┈╩ ╚═╝ ╩ ┈  ╩┈ ╚═╝ ╚═╝ ╩═╝ ╚═╝     " 
 echo "${WHITE}    [${GREEN} TIPE INSTALLASI TERMUX , LINUX , NETHUNTER ${WHITE}]"
 echo " "
-
-# installasi Termux 
-case $pil in
-1)echo " "
+echo " "
 echo "${RED} ┏┳┓ ┏━┓ ┳━┓ ┏┳┓ ┳┈┳ ━┓┈┳    "
 echo "${RED} ┈┃┈ ┣┫┈ ┣┳┛ ┃┃┃ ┃┈┃ ┏┻┳┛    [ ${WHITE}Software Termux ${RED}] "
 echo "${RED} ┈┻┈ ┗━┛ ┻┗━ ┻┈┻ ┗━┛ ┻┈┗━    "
@@ -161,6 +165,12 @@ echo "${BLUE}[${RED}✓${BLUE}] ${GREEN}Loading Installing In Termux..."
    echo "~{${ORANGE} Bersiap Untuk Menginstal Tuan ${GREEN}}~"
       sleep 3s
     echo " "
+    clear
+echo " "
+echo "${WHITE} ┏━┓ ┏━┓ ┏━┓ ┏┓┏ ┈ ┏┳┓ ┏━┓ ┏━┓ ┳┈┈ ┏━┓  "
+echo "${WHITE} ┃┈┃ ┣━┛ ┣┫┈ ┃┃┃ ┈ ┈┃┈ ┃┈┃ ┃┈┃ ┃┈┈ ┗━┓  "
+echo "${WHITE} ┗━┛ ┻┈┈ ┗━┛ ┛┗┛ ┈ ┈┻┈ ┗━┛ ┗━┛ ┻━┛ ┗━┛  "
+echo " "
 
 #masuk ke Script
 
@@ -168,6 +178,8 @@ lagi=1
 while [ $lagi -lt 20 ];
 do
 
+echo " "
+echo "${RED}[${ORANGE}!${RED}] ${WHITE} Sebelum Masuk Script Update Dulu Ketik ${ORANGE}UP ${WHITE}Buat Update !"
 echo " "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}KELUAR${GREEN} ] ${WHITE}Kalo mau Logout "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}UP${GREEN} ] ${WHITE}Buat Update Tools Yang Versi Terbaru "
@@ -200,7 +212,7 @@ sleep 1s
 echo "${BLUE}[${RED}✓${BLUE}] ${GREEN}Loading Logout In Software From..."
 echo " "
 sleep 2s
-echo "~{${ORANGE} TUUAN TELAH LOGOUT DARI FROM UCH BAY BAY ${GREEN}}~"
+echo "~{${ORANGE} TUAN TELAH LOGOUT DARI FROM UCH BAY BAY ${GREEN}}~"
 sleep 3s
 echo " "
 echo -e $bu"KHO :)" 
@@ -211,8 +223,6 @@ clear
  echo " "
  echo -e "${RED}[${ORANGE}+${RED}] ${GREEN} Going Out ! "
  echo -e "${RED}[${ORANGE}!${RED}]${WHITE} apabila tua mau masuk ke toolsnya lagi bisa ketikan Command"
-echo -e "${RED}==> ${ORANGE}cd $HOME"
-echo -e "${RED}==> ${ORANGE}cd ENC-Typ "
 echo -e "${RED}==> ${ORANGE}bash ENC-Typ.sh"
 echo " "
 exit
@@ -271,17 +281,15 @@ echo "${WHITE}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿
 echo "${WHITE}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
 echo "${WHITE}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
 echo " "
- cd $HOME 
+sleep 2
+ cd $HOME
  rm -rf ENC-Typ
- https://github.com/Unlimited-Crack-You/ENC-Typ.git 
+ git clone https://github.com/Unlimited-Crack-You/ENC-Typ.git
  clear 
  echo "" 
  echo -e "${RED} [ ${ORANGE} + ${RED} ] ${GREEN} Tools UCH 2009 was successfully updated. $resetcollor" 
  sleep 3.7 
- echo "" 
- cd $HOME 
- cd ENC-Typ
- cd
+ echo " "
  cd ENC-Typ
  sleep 3
 clear
