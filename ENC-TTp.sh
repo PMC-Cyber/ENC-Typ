@@ -291,7 +291,6 @@ sleep 2
  echo -e "${RED} [ ${ORANGE} + ${RED} ] ${GREEN} Tools UCH 2009 was successfully updated. $resetcollor" 
  sleep 3.7 
  echo " "
- cd $HOME
  cd ENC-Typ
  sleep 3
 clear
