@@ -224,10 +224,11 @@ printf "\e[103m\e[1;77mBY : UCH 2009 FROM \e[0m\n"
 sleep 1
 clear
  echo " "
- echo -e "${RED}[${ORANGE}+${RED}] ${GREEN} Going Out ! "
+ echo -e "${RED}[${ORANGE}+${RED}] ${GREEN} ANDA TELAH KELUAR ! "
  echo -e "${RED}[${ORANGE}!${RED}]${WHITE} apabila tua mau masuk ke toolsnya lagi bisa ketikan Command"
 echo -e "${RED}==> ${ORANGE}bash ENC-Typ.sh"
 echo " "
+echo "${ORANGE} KETIK KELUAR LAGI ${RED}!"
 exit
 
 ;;
