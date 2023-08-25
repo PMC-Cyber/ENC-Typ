@@ -181,9 +181,11 @@ do
 echo " "
 echo "${RED}[${ORANGE}!${RED}] ${WHITE} Sebelum Masuk Script Update Tools dulu Ketik ${ORANGE}UP ${WHITE}Buat Update !"
 echo "${RED}[${ORANGE}!${RED}] ${WHITE} Setelah Update Lanjut buat bahan Dulu Ketik ${ORANGE}TUTOR ${WHITE}Buat masuk ke Cara Buatnya !"
+echo "${RED}[${ORANGE}✓${RED}] ${WHITE} Setelah TUTOR Lanjut Ketik ${ORANGE}MASUK ${WHITE}Buat masuk ke Script nya!"
 echo " "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}KELUAR${GREEN} ] ${WHITE}Kalo mau Logout "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}UP${GREEN} ] ${WHITE}Buat Update Tools Yang Versi Terbaru "
+echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}MASUK${GREEN} ] ${WHITE}Buat Masuk dalam Script nya "
 echo " "
 echo -e $w "${WHITE}┏⟦ ${ORANGE}Pilih sesuai yang mau tuan gunakan ${WHITE}:) "
 read -p  " ${WHITE}┗☞ ${ORANGE}Enter Your Number ${WHITE}:" pil  ;
@@ -294,7 +296,7 @@ sleep 2
  cd ENC-Typ
  sleep 3
 clear
-python2 bash.py
+bash ENC-TTp.sh
 
 ;;
 
@@ -328,6 +330,9 @@ bash ENC-TTp.sh
 
 ;;
 
+MASUK)python2 bash.py
+
+;;
 *) echo "${WHITE}PILIH YG BENER CUK !!"
 esac
 done
