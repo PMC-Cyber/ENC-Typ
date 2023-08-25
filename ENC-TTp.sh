@@ -291,6 +291,7 @@ sleep 2
  echo -e "${RED} [ ${ORANGE} + ${RED} ] ${GREEN} Tools UCH 2009 was successfully updated. $resetcollor" 
  sleep 3.7 
  echo " "
+ cd $HOME
  cd ENC-Typ
  sleep 3
 clear
@@ -317,13 +318,13 @@ echo "~{${ORANGE} TUAN TELAH BERADA DI FROM BUAT BAHAN ${GREEN}}~"
 echo " "
 sleep 1s
 echo "${ORANGE} CARA BUAT BAHAN ADA WAKTU BUAT BACA KALO GAK DI SS AJA ${WHITE}:"
-echo "${GREEN} AKAN OTOMATIS KE HALAMAN UP DALAM WAKTU ${WHITE}10 DETIK "
+echo "${GREEN} AKAN OTOMATIS KE HALAMAN UP DALAM WAKTU ${WHITE}15 DETIK "
 echo " "
 echo "${ORANGE} Pergi Ke ${WHITE}NEW SESSIONS ${ORANGE}lalu Ketik ${GREEN}(${WHITE}cd${GREEN})"
 echo "${ORANGE} Setelah Ketik ${GREEN}(${WHITE}cd${GREEN})${ORANGE}ketik ${GREEN}(${WHITE}cd ENC-Typ${GREEN})"
 echo "${ORANGE} langsung Ketik ${GREEN}(${WHITE}Nano contoh.sh${GREEN}) ${ORANGE}tempel codingan di sini, kalo sudah simpan"
 echo "${ORANGE} Ketik commad ${WHITE}python2 bash.py"
-sleep 9s
+sleep 15s
 bash ENC-TTp.sh
 
 ;;
