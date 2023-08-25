@@ -185,7 +185,7 @@ echo "${RED}[${ORANGE}✓${RED}] ${WHITE} Setelah TUTOR Lanjut Ketik ${ORANGE}MA
 echo " "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}KELUAR${GREEN} ] ${WHITE}Kalo mau Logout "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}UP${GREEN} ] ${WHITE}Buat Update Tools Yang Versi Terbaru "
-echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}MASUK${GREEN} ] ${WHITE}Buat Masuk dalam Script nya "
+echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}MASUK${GREEN} ] ${WHITE}Buat Masuk dalam Script ENC-TYP "
 echo " "
 echo -e $w "${WHITE}┏⟦ ${ORANGE}Pilih sesuai yang mau tuan gunakan ${WHITE}:) "
 read -p  " ${WHITE}┗☞ ${ORANGE}Enter Your Number ${WHITE}:" pil  ;
