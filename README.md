@@ -7,9 +7,31 @@
 <b>This Script is not complete yet, We are still working on it so We will add more games in the Future.</b><br>
 
 ## Install Games 📲 :
-```pkg update && upgrade```
+
+pkg upgrade && pkg update
+pkg install git
+pkg install python2
+pkg install python
+pip2 install termcolor
+pkg install nodejs
+pkg install neofetch -y
+npm install -g bash-obfuscate
+bash ENC-TTp.sh
+```pkg upgrade && pkg update```
 <br>
-```pkg install git -y```
+```pkg install git```
+<br>
+```pkg install python```
+<br>
+```pkg install python2```
+<br>
+```pip2 install termcolor```
+<br>
+```pkg install nodejs```
+<br>
+```pkg install neofetch -y```
+<br>
+```npm install -g bash-obfuscate```
 <br>
 ```rm -rf Game-Trx```
 <br>
