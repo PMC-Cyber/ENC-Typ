@@ -4,9 +4,9 @@ print ("\033[1;32mTUAN HARUS MASUKAN USERNAME DAN PASSWORD BIAR BISA LOGIN")
 
 print ("\033[1;32mWEBSITE = www.uch-2009.ueuo.com")
 
-username = 'TOOLS2'      
+username = 'bash enc'      
 
-password = 'TOOLS2'
+password = 'bash enc'
 
 
 def restart():
