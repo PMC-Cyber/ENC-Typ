@@ -1,22 +1,8 @@
-# Termux-Games mini
-<strong><u>Play Games on Termux</u></strong> 🎮<br>
+# ENC-Typ ( Bash )
+<strong><u>Encode & Dcode </u></strong> 😈 <br>
 
-<b>Games is a Script where you can find all The Games that Are available for Termux.</b><br> 
-<b>I have included All the games that are available in Termux Repository. </b><br>
-<b>I have also included some games that are on GitHub or written in other languages other than bash like Hangman and 2048.</b><br>
-<b>This Script is not complete yet, We are still working on it so We will add more games in the Future.</b><br>
+## Install On Termux , Kali , Debian :
 
-## Install Games 📲 :
-
-pkg upgrade && pkg update
-pkg install git
-pkg install python2
-pkg install python
-pip2 install termcolor
-pkg install nodejs
-pkg install neofetch -y
-npm install -g bash-obfuscate
-bash ENC-TTp.sh
 ```pkg upgrade && pkg update```
 <br>
 ```pkg install git```
@@ -33,17 +19,15 @@ bash ENC-TTp.sh
 <br>
 ```npm install -g bash-obfuscate```
 <br>
-```rm -rf Game-Trx```
+```rm -rf ENC-Typ```
 <br>
-```git clone https://github.com/Unlimited-Crack-You/Game-Trx```
+```git clone https://github.com/Unlimited-Crack-You/ENC-Typ```
 <br>
-```cd Game-Trx```
+```cd ENC-Typ```
 <br>
 ```chmod +x *```
 <br>
-```bash install sh```
-<br>
-```bash Games```
+```bash install-script.sh```
 <br>
 
 ## Screenshot 
