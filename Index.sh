@@ -214,8 +214,8 @@ printf " \e[0m\e[1;93mUPDATE SELESAI AKAN MENCOBA MASUK KEMBALI \e[0m\e[1;91m!! 
 printf "\e[0m\n"
 sleep 2
 echo $GR"PROSESS"
-python2 bash.py
 clear
+python2 bash.py
 
 else
 printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
