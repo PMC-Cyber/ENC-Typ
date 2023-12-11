@@ -7,27 +7,13 @@
 <br>
 ```pkg install git```
 <br>
-```pkg install python```
-<br>
-```pkg install python2```
-<br>
-```pip2 install termcolor```
-<br>
-```pkg install nodejs```
-<br>
-```pkg install neofetch -y```
-<br>
-```npm install -g bash-obfuscate```
-<br>
-```rm -rf ENC-Typ```
-<br>
 ```git clone https://github.com/Unlimited-Crack-You/ENC-Typ```
 <br>
 ```cd ENC-Typ```
 <br>
 ```chmod +x *```
 <br>
-```bash Install-script.sh```
+```bash index.sh```
 <br>
 
 ## Screenshot 
