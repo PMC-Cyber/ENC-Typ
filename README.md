@@ -13,7 +13,7 @@
 <br>
 ```chmod +x *```
 <br>
-```bash index.sh```
+```bash buat_file.sh```
 <br>
 
 ## Screenshot 
